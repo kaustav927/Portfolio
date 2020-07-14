@@ -1,0 +1,40 @@
+
+.jumbotron {
+    background-image: url('../assets/img/triangles.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+.marginBottom{
+    margin-bottom: 30px;
+}
+.padding{
+    padding-top: 25vh;
+}
+
+.font_color{
+ color: #edf5e1;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #2E4C80;
+    background-color: cutom-color;
+    border-color: #2E4C80;
+    border-color: cutom-cor;
+    padding-top: 5vh;
+}
+
+.button {
+    transition-duration: 0.4s !important;
+    color: #edf5e1 !important;
+    border-color:  #edf5e1!important;
+    /* background-color: #edf5e1!important;*/
+  }
+  
+  .button:hover {
+    background-color:#edf5e1!important; /* Green */
+    color: #2E4C80  !important;
+  }

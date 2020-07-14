@@ -38,6 +38,30 @@ class Carousel extends React.Component{
                     link: 'https://github.com/kaustav927/Twitter-Sentiment-Analyzer',
                     selected: false
                 },
+                {
+                    id: 3,
+                    title: 'Sentiment Anlalyzer for Twitter',
+                    subTitle: 'A social network for developers',
+                    imgSrc: sentiment,
+                    link: 'https://github.com/kaustav927/Twitter-Sentiment-Analyzer',
+                    selected: false
+                },
+                {
+                    id: 4,
+                    title: 'Sentiment Anlalyzer for Twitter',
+                    subTitle: 'A social network for developers',
+                    imgSrc: sentiment,
+                    link: 'https://github.com/kaustav927/Twitter-Sentiment-Analyzer',
+                    selected: false
+                },
+                {
+                    id: 5,
+                    title: 'Sentiment Anlalyzer for Twitter',
+                    subTitle: 'A social network for developers',
+                    imgSrc: sentiment,
+                    link: 'https://github.com/kaustav927/Twitter-Sentiment-Analyzer',
+                    selected: false
+                },
             ]
         }
     }
@@ -69,11 +93,15 @@ class Carousel extends React.Component{
 
     render() {
         return(
+            
             <Container fluid={true}>
+            <h3>Check out my projects below.</h3>
                <Row className="justify-content-around">
                    {this.makeItems(this.state.items)}
                </Row>
             </Container>
+
+         
         );
     }
 

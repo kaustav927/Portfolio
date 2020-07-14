@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -5,6 +6,10 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+#navText{
+  color: white;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -42,3 +47,34 @@
   }
 }
 
+.nav{
+  width:100%;
+  
+  transition:1s;
+}
+
+.scrolled{
+  position: sticky;
+  background-color:black;
+  opacity:0.85;
+}
+
+.sticky-nav {
+  position: sticky;
+  top: 0;
+}
+
+.background {
+  background-image: url(./assets/img/triangles.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.navbar-hamburger{
+  color:#edf5e1 !important;
+}
+
+.navText{
+  color:#edf5e1 !important;
+}
