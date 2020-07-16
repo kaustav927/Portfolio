@@ -2,7 +2,7 @@ const express = require('express')
 const bodyParser= require('body-parser')
 const nodeMailer=require('nodemailer')
 const app=express()
-const PORT=process.env.PORT ||3030
+const PORT=process.env.PORT ||3001
 const cors = require('cors');
 require('dotenv').config();
 
@@ -21,8 +21,7 @@ app.use((req, res, next) => {
 app.post('/api/email',(req,res)=>{
 
     console.log(req.body)
-   // console.log(process.env.EM_PASSWORD, process.env.EM_USERNAME)
-    
+   
         const htmlEmail=`
         <h3>Contact Details</h3>
         <ul>
@@ -33,18 +32,19 @@ app.post('/api/email',(req,res)=>{
         <p>${req.body.message}</p>
         `
 
-        var transporter = nodeMailer.createTransport("SMTP", {
-            service: "hotmail",
+        const transporter = nodeMailer.createTransport({
+            host: 'smtp.ethereal.email',
+            port: 587,
             auth: {
-                user: "user@outlook.com",
-                pass: "password"
+                user: 'jovanny.lakin18@ethereal.email',
+                pass: 'uSF9aMEDwmkyFUaVdT'
             }
         });
         //var transporter = nodeMailer.createTransport(transport)
 
 
         let mailOptions={
-            from:req.body.email,
+            from: req.body.email,
             to:process.env.EM_USERNAME,
             subject:`Portfolio Contact from ${req.body.name}`,
             text:req.body.message,

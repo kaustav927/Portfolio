@@ -59,7 +59,7 @@ class ContactPage extends React.Component{
         });
 
 
-        axios.post('http://localhost:3030/api/email', this.state)
+        axios.post('http://localhost:3001/api/email', this.state)
         .then(res => {
 
             if(res.data.success) {
@@ -111,7 +111,7 @@ class ContactPage extends React.Component{
                      </Form.Group>
 
 
-                        <Button className="d-inline-block" variant="primary" type="submit" disabled={this.state.disabled}>
+                        <Button className="d-inline-block sendButton" variant="primary" type="submit" disabled={this.state.disabled}>
                              Send
                         </Button>
 

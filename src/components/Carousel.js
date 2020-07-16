@@ -32,7 +32,7 @@ class Carousel extends React.Component{
                 },
                 {
                     id: 2,
-                    title: 'Sentiment Anlalyzer for Twitter',
+                    title: 'Sentiment Anlalyzer',
                     subTitle: 'NLP with python',
                     imgSrc: sentiment,
                     link: 'https://github.com/kaustav927/Twitter-Sentiment-Analyzer',

@@ -57,3 +57,12 @@ code {
   padding: 10px 15px;
   font-family: 'VarelaRound' !important;
 }
+
+.sendButton{
+  transition-duration: 0.4s !important;
+  color: #edf5e1 !important;
+  background-color:  #2E4C80 !important;
+  text-decoration: none !important;
+  font-family: "VarelaRound";
+  font-size: larger;
+}
