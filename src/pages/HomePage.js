@@ -7,8 +7,11 @@ function HomePage(props){
 
     return(
         <div>
-            <Hero title={props.title} subTitle={props.subTitle} button={props.button}/>
+            <Hero title={props.title} subTitle={props.subTitle} text={props.text}/>
+            <Container>
             <Carousel/>
+            </Container>
+            
         </div>
 
        

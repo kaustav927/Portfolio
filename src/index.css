@@ -6,6 +6,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+@font-face{
+  font-family:'VarelaRound' ;
+  src: local("VarelaRound"), url(./assets/fonts/VarelaRound-Regular.ttf) format('truetype');
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -26,25 +30,30 @@ code {
 .ks-card-title{
   font-size: 24px;
   margin: 0px;
+  font-family: 'VarelaRound' !important;
 }
 
 .ks-card-info{
   margin-top:10px;
   min-height:100px;
+  font-family: 'VarelaRound' !important;
 }
 
 .ks-card-sub-title{
   font-size:16px;
   margin:0px;
+  font-family: 'VarelaRound' !important;
 }
 
 .success-msg{
   color: #5577aa;
   padding: 10px 15px;
+  font-family: 'VarelaRound' !important;
 }
 
 
 .err-msg{
   color: #EE6352;
   padding: 10px 15px;
+  font-family: 'VarelaRound' !important;
 }

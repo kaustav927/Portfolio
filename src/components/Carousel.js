@@ -2,7 +2,7 @@ import React from 'react'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Card from '../components/Card';
-
+import '../App.css';
 
 import changeX from '../assets/img/ChangeX-PW.png'
 import game from '../assets/img/Game-PW.png'
@@ -95,7 +95,7 @@ class Carousel extends React.Component{
         return(
             
             <Container fluid={true}>
-            <h3>Check out my projects below.</h3>
+            <h3 className="projectHeader" >Check out my projects below.</h3>
                <Row className="justify-content-around">
                    {this.makeItems(this.state.items)}
                </Row>

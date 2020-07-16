@@ -1,3 +1,7 @@
+@font-face{
+  font-family:'VarelaRound' ;
+  src: local("VarelaRound"), url(./assets/fonts/VarelaRound-Regular.ttf) format('truetype');
+}
 
 .App {
   text-align: center;
@@ -8,9 +12,6 @@
   pointer-events: none;
 }
 
-#navText{
-  color: white;
-}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -70,6 +71,10 @@
   background-repeat: no-repeat;
   height: 100vh;
 }
+.NameButton{
+  background-color:transparent !important;
+  
+}
 
 .navbar-hamburger{
   color:#edf5e1 !important;
@@ -77,4 +82,38 @@
 
 .navText{
   color:#edf5e1 !important;
+  font-family: 'VarelaRound' !important;
+  font-size: larger;
 }
+
+.projectHeader{
+  color:#05386b !important;
+  font-family: 'VarelaRound' !important;
+  font-size: 50px;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
+.aTag{
+  text-decoration: none !important;
+
+}
+
+.Abutton {
+  transition-duration: 0.4s !important;
+  color: #2E4C80 !important;
+  border-color:  #edf5e1!important;
+  background-color: #edf5e1 !important;
+  text-decoration: none !important;
+  font-family: "VarelaRound";
+  font-size: larger;
+  
+}
+
+.button:hover {
+  background-color:#edf5e1!important; /* Green */
+  color: #2E4C80  !important;
+  text-decoration: none !important;
+
+}
+

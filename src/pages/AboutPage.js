@@ -9,7 +9,8 @@ function AboutPage(props){
             <Hero title={props.title}></Hero>
 
             <Content>
-                Hello
+                <h1>Hello</h1>
+                <p>lorem 20</p>
             </Content>
         </div>
     );

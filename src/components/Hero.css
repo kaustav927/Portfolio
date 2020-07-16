@@ -1,3 +1,20 @@
+/*
+@font-face{
+    font-family:'Novus' ;
+    src: local("Novus"), url(../assets/fonts/Novus-Regular.otf) format('truetype');
+}
+*/
+
+@font-face{
+    font-family:'VarelaRound' ;
+    src: local("VarelaRound"), url(../assets/fonts/VarelaRound-Regular.ttf) format('truetype');
+  }
+
+  
+@font-face{
+    font-family:'Marker' ;
+    src: local("Marker"), url(../assets/fonts/PermanentMarker-Regular.ttf) format('truetype');
+}
 
 .jumbotron {
     background-image: url('../assets/img/triangles.png'); 
@@ -5,18 +22,29 @@
     background-repeat: no-repeat;
     height: 100vh;
     width: 100%;
+    
 }
 
 .marginBottom{
     margin-bottom: 30px;
 }
 .padding{
-    padding-top: 25vh;
+    padding-top: 20vh;
 }
 
 .font_color{
  color: #edf5e1;
+
 }
+.TitleFont{
+    font-family:'VarelaRound' !important;
+}
+
+.SubtitleFont{
+    font-family: 'Marker' !important;
+}
+
+
 
 .btn-primary {
     color: #fff;
@@ -28,13 +56,18 @@
 }
 
 .button {
-    transition-duration: 0.4s !important;
+    /*transition-duration: 0.4s !important;*/
     color: #edf5e1 !important;
     border-color:  #edf5e1!important;
+    text-decoration: none;
     /* background-color: #edf5e1!important;*/
   }
   
   .button:hover {
     background-color:#edf5e1!important; /* Green */
     color: #2E4C80  !important;
+  }
+
+  .aTag{
+    text-decoration: none;
   }
