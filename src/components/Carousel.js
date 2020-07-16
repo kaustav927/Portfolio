@@ -16,8 +16,8 @@ class Carousel extends React.Component{
             items: [
                 {
                     id: 0,
-                    title: 'Strategy game',
-                    subTitle: 'The cookbook for developers',
+                    title: 'Archi',
+                    subTitle: 'Computer v.s. Human game',
                     imgSrc: game,
                     link: 'https://github.com/kaustav927/TicTacToe',
                     selected: false
@@ -25,7 +25,7 @@ class Carousel extends React.Component{
                 {
                     id: 1,
                     title: 'ChangeX',
-                    subTitle: 'YouTube channel',
+                    subTitle: 'Charity Concept',
                     imgSrc: changeX,
                     link: 'https://changex.ca',
                     selected: false
@@ -33,11 +33,12 @@ class Carousel extends React.Component{
                 {
                     id: 2,
                     title: 'Sentiment Anlalyzer for Twitter',
-                    subTitle: 'A social network for developers',
+                    subTitle: 'NLP with python',
                     imgSrc: sentiment,
                     link: 'https://github.com/kaustav927/Twitter-Sentiment-Analyzer',
                     selected: false
                 },
+                /*
                 {
                     id: 3,
                     title: 'Sentiment Anlalyzer for Twitter',
@@ -62,6 +63,7 @@ class Carousel extends React.Component{
                     link: 'https://github.com/kaustav927/Twitter-Sentiment-Analyzer',
                     selected: false
                 },
+                */
             ]
         }
     }
