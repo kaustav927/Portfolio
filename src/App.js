@@ -12,6 +12,7 @@ import Footer from './components/Footer.js';
 import HomePage from './pages/HomePage.js';
 import AboutPage from './pages/AboutPage.js';
 import ContactPage from './pages/ContactPage.js';
+import { Container } from 'react-bootstrap';
 
 
 
@@ -31,7 +32,7 @@ constructor(props){
       home: {
         title:'Relentless Developer.',
         subTitle:'Focused on creating the future.',
-        text:'Checkout my projects below'
+        text:'Checkout my projects below.'
       },
       about: {
         title:'About me',
@@ -44,7 +45,7 @@ constructor(props){
 
 componentDidMount(){
   window.addEventListener('scroll', ()=>{
-    const isTop = window.scrollY<440;
+    const isTop = window.scrollY<137;
     console.log(window.scrollY)
     if(isTop !== true){
       this.setState({scrolled:true})
@@ -76,10 +77,11 @@ componentWillUnmount(){
           <Router>
 
           <Navbar collapseOnSelect fixed ="top" expand="lg" variant="dark" className={(this.state.scrolled ? 'nav scrolled' : 'nav')} >
-              <Navbar.Brand className="navText" id="navText"> <Link className="nav-link navText" id="navText" to="/">Kaustav Sharma</Link> </Navbar.Brand>
+          <Container>
+          <Navbar.Brand className="navText" id="navText"> <Link className="nav-link navText" id="navText" to="/">Kaustav Sharma</Link> </Navbar.Brand>
 
               <Navbar.Toggle className="border-0 navbar-hamburger" aria-controls="responsive-navbar-nav"/>
-                   
+                  
               <Navbar.Collapse id="responsive-navbar-nav hamburger">
                 <Nav className="ml-auto">
                   <Link className="nav-link navText" id="navText" to="/">Home</Link>
@@ -87,12 +89,11 @@ componentWillUnmount(){
                   <Link className="nav-link navText" id="navText" to="/contact">Contact</Link>
                   <Button className="Abutton" variant="outline-primary"><a rel="noopener noreferrer" className="Abutton" href='https://drive.google.com/file/d/10GbF8d7Ch2FCYeV_KdYwsi0HMxxw2I7B/view?usp=sharing' target="_blank">Resume</a></Button>
 
-                  
-                  
-                  
                 </Nav>
               </Navbar.Collapse>
-            </Navbar>
+
+          </Container>
+          </Navbar>
           
            
           

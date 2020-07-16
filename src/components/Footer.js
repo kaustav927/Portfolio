@@ -10,6 +10,7 @@ import {useSpring, animated} from 'react-spring';
 // className="d-inline-block align-top"
 function Footer() {
     const style = useSpring({opacity: 1, from: {opacity:0}})
+   
     return(
         
         <div className="container">
@@ -20,9 +21,12 @@ function Footer() {
                     Coded with ❤️ by Kaustav Sharma
                     </div>
 
-                    <div className="p-0 d-flex justify-content-end" md={3}>
+                    <div className="p-0 d-flex justify-content-end footerText" md={4} sm={12}>
                      <a href='https://github.com/kaustav927/Portfolio' target="_blank" rel="noopener noreferrer">Source Code</a>
                     </div>
+                </Row>
+                <Row>
+                    
                 </Row>
             </Container>
         </footer>

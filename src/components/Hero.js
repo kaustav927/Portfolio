@@ -13,21 +13,20 @@ import {useSpring, animated} from 'react-spring';
 function Hero(props){
 
     const style = useSpring({opacity: 1, from: {opacity:0}})
-    
+    //jumbotron-fluid rounded-0 justify-content-center align-self-center jumbotron
     return(
     
-      <Jumbotron className="jumbotron-fluid rounded-0 justify-content-center align-self-center jumbotron" >
+      <Jumbotron className="jumbotron-fluid rounded-0 jumbotron" >
             <Container fluid={true}>
                
                 <animated.div style={style}>
-                <Row className="justify-content-center padding">
+                <Container className="justify-content-center padding">
                     <Col ms={8} sm={12}>
-                       { props.title && <h1 className="display-1 font-weight-bolder font_color TitleFont">{props.title}</h1>}
-                       { props.subTitle && <h3 className="display-4 font-weight-light font_color marginBottom SubtitleFont">{props.subTitle}</h3>}
-                      
-
+                       { props.title && <h1 className="font-weight-bolder font_color TitleFont">{props.title}</h1>}
+                       { props.subTitle && <h3 className="font-weight-light font_color marginBottom SubtitleFont">{props.subTitle}</h3>}
+                       { props.subTitle && <h3 className="font-weight-light font_color marginBottom text">{props.text}</h3>}
                     </Col>
-                </Row>
+                </Container>
                 
                 </animated.div>
                 
