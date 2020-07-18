@@ -75,7 +75,7 @@ componentWillUnmount(){
 
           
           <Router>
-
+        <Container>
           <Navbar collapseOnSelect fixed ="top" expand="lg" variant="dark" className={(this.state.scrolled ? 'nav scrolled' : 'nav')} >
           <Container>
           <Navbar.Brand className="navText" id="navText"> <Link className="nav-link navText" id="navText" to="/">Kaustav Sharma</Link> </Navbar.Brand>
@@ -92,8 +92,11 @@ componentWillUnmount(){
                 </Nav>
               </Navbar.Collapse>
 
-          </Container>
+        </Container>
           </Navbar>
+</Container>
+
+          
           
            
           
