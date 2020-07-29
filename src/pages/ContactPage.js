@@ -3,10 +3,12 @@ import React from 'react';
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
 
-import Hero from '../components/Hero'
+
 import Content from '../components/Content'
 import axios from 'axios';
+import { Container } from 'react-bootstrap';
 
+import './Contact.css'
 class ContactPage extends React.Component{
 
     constructor(props) {
@@ -88,10 +90,10 @@ class ContactPage extends React.Component{
 
     render() {
         return(
-            <div>
-                <Hero title={this.props.title} />
-
-                <Content>
+                <div id="contact" className="contactStyle">
+                <Container>
+                <Content >
+                <h1>Contact Me</h1>
                     <Form onSubmit={this.handleSubmit}>
                      <Form.Group>
                           <Form.Label htmlFor="full-name">Full Name</Form.Label>
@@ -120,7 +122,8 @@ class ContactPage extends React.Component{
                         {this.state.emailSent === false && <p className="d-inline err-msg">Email Not Sent</p>}
                     </Form>
                 </Content>
-            </div>
+                </Container>
+                </div>
         );
     }
 

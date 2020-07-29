@@ -6,22 +6,12 @@ import { Container } from 'react-bootstrap'
 function HomePage(props){
 
     return(
-        <div>
-            <Hero title={props.title} subTitle={props.subTitle} text={props.text}/>
+        <div id="home">
+            <Hero title='Relentless Developer.' subTitle='Focused on creating the future.' text='Checkout my projects below.'/>
             <Container>
-            <Carousel/>
+            <div id="projects"><Carousel/></div>
             </Container>
-            
         </div>
-
-       
-
-        
-            
-
-           
-     
-     
     );
 }
     
