@@ -1,0 +1,23 @@
+
+ 
+
+ @font-face{
+    font-family:'VarelaRound' ;
+    src: local("VarelaRound"), url(../assets/fonts/VarelaRound-Regular.ttf) format('truetype');
+  }
+  
+body{
+    font-family: VarelaRound !important;
+}
+
+.footerText{
+    align-content: center !important;
+    padding-top: 10vh;
+  }
+  
+  
+  .flex-item {
+    justify-content: center
+  }
+
+ 

@@ -4,8 +4,6 @@ import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import './Hero.css';
 import {useSpring, animated} from 'react-spring';
-//import Button from 'react-bootstrap/Button'
-
 
 //active style={{marginTop: 20, color: '#05386b', borderColor: '#379683', backgroundColor: '#edf5e1'}}
 
