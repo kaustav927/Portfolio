@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/deploy-react/static/css/main.c9f151e1.chunk.css",
+    "main.js": "/deploy-react/static/js/main.8a8a5d7f.chunk.js",
+    "main.js.map": "/deploy-react/static/js/main.8a8a5d7f.chunk.js.map",
+    "runtime-main.js": "/deploy-react/static/js/runtime-main.ecea5f17.js",
+    "runtime-main.js.map": "/deploy-react/static/js/runtime-main.ecea5f17.js.map",
+    "static/css/2.829c9cb5.chunk.css": "/deploy-react/static/css/2.829c9cb5.chunk.css",
+    "static/js/2.45b3e566.chunk.js": "/deploy-react/static/js/2.45b3e566.chunk.js",
+    "static/js/2.45b3e566.chunk.js.map": "/deploy-react/static/js/2.45b3e566.chunk.js.map",
+    "index.html": "/deploy-react/index.html",
+    "precache-manifest.f1a37bb16dc22f5534e4d30bd6099ba8.js": "/deploy-react/precache-manifest.f1a37bb16dc22f5534e4d30bd6099ba8.js",
+    "service-worker.js": "/deploy-react/service-worker.js",
+    "static/css/2.829c9cb5.chunk.css.map": "/deploy-react/static/css/2.829c9cb5.chunk.css.map",
+    "static/css/main.c9f151e1.chunk.css.map": "/deploy-react/static/css/main.c9f151e1.chunk.css.map",
+    "static/js/2.45b3e566.chunk.js.LICENSE.txt": "/deploy-react/static/js/2.45b3e566.chunk.js.LICENSE.txt",
+    "static/media/ChangeX-PW.png": "/deploy-react/static/media/ChangeX-PW.a77ab372.png",
+    "static/media/Game-PW.png": "/deploy-react/static/media/Game-PW.b960bc8f.png",
+    "static/media/Hero.css": "/deploy-react/static/media/triangles.db59449d.png",
+    "static/media/Sent_analysis_PW.png": "/deploy-react/static/media/Sent_analysis_PW.28324e6f.png",
+    "static/media/About.css": "/deploy-react/static/media/VarelaRound-Regular.159cb67f.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ecea5f17.js",
+    "static/css/2.829c9cb5.chunk.css",
+    "static/js/2.45b3e566.chunk.js",
+    "static/css/main.c9f151e1.chunk.css",
+    "static/js/main.8a8a5d7f.chunk.js"
+  ]
+}
