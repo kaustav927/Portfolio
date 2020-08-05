@@ -20,7 +20,6 @@ class Navi extends React.Component {
   scrollToTop(){}
 
   state = {
-    
     expanded: {}
   }
   setNavExpanded = (expanded) => {
@@ -30,11 +29,6 @@ class Navi extends React.Component {
     closeNav = () => {
     this.setState({ navExpanded: false });
     }
-
-
-
-
-
 
 componentDidMount(){
   window.addEventListener('scroll', ()=>{
@@ -55,7 +49,7 @@ render(){
  
     <Container>
 
-     <Navbar  onToggle={this.setNavExpanded} expanded={this.state.navExpanded} fixed ="top" expand="lg" variant="dark" className={(this.state.scrolled ? 'nav scrolled' : 'nav')} >
+     <Navbar  onToggle={this.setNavExpanded} expanded={this.state.navExpanded} fixed ="top" expand="lg" variant="dark" >
      <Navbar.Brand className="navText" id="navText"> Kaustav Sharma </Navbar.Brand>
      <Navbar.Toggle className="border-0 navbar-hamburger" aria-controls="responsive-navbar-nav"/>
          <Navbar.Collapse id="responsive-navbar-nav navText">
