@@ -31,18 +31,18 @@
     "react-scroll": "^1.8.0",
     "react-spring": "^8.0.27",
     "scroll": "^3.0.1",
+    "serve": "^11.3.2",
     "yarn": "^1.22.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "aws s3 sync build/ s3://portfolio927",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "starts": "node server.js",
     "server": "node server.js",
     "client": "npm run start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "deploy": "aws s3 sync build/ s3://portfolio-kaustav"
   },
   "eslintConfig": {
     "extends": "react-app"
