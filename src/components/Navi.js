@@ -49,7 +49,7 @@ render(){
  
     <Container>
 
-     <Navbar  onToggle={this.setNavExpanded} expanded={this.state.navExpanded} fixed ="top" expand="lg" variant="dark" >
+     <Navbar  onToggle={this.setNavExpanded} expanded={this.state.navExpanded} fixed ="top" expand="lg" variant="dark" className="scrolled">
      <Navbar.Brand className="navText" id="navText"> Kaustav Sharma </Navbar.Brand>
      <Navbar.Toggle className="border-0 navbar-hamburger" aria-controls="responsive-navbar-nav"/>
          <Navbar.Collapse id="responsive-navbar-nav navText">
@@ -59,7 +59,7 @@ render(){
              <NavItem className="nav-link navText nav-item navbar" id="navText" eventKey={3} href="#about"><Link onClick={this.closeNav} activeClass="active" to="about" spy={true} smooth={true} duration={500}>About</Link></NavItem>
              <NavItem className="nav-link navText nav-item navbar" id="navText" eventKey={4} href="#contact"><Link onClick={this.closeNav} activeClass="active" to="contact" spy={true} smooth={true} duration={500}>Contact</Link></NavItem>
             
-             <Button className="Abutton" variant="outline-primary"><a rel="noopener noreferrer" className="Abutton" href='https://drive.google.com/file/d/10GbF8d7Ch2FCYeV_KdYwsi0HMxxw2I7B/view?usp=sharing' target="_blank">Resume</a></Button>
+             <Button className="Abutton" variant="outline-primary"><a rel="noopener noreferrer" className="Abutton" href='https://drive.google.com/file/d/17NR9-V8zqedP2j8Iu9-OfkDN7xjirNEV/view?usp=sharing' target="_blank">Resume</a></Button>
            </Nav>
          </Navbar.Collapse>
      </Navbar>
