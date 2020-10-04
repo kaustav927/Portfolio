@@ -11,33 +11,24 @@ import { Container } from 'react-bootstrap';
 import { NavItem } from 'react-bootstrap';
 
 
-import './navbar.css'
+
 
 
 
 
 class Navi extends React.Component {
-  scrollToTop(){}
 
-  state = {
-    expanded: {}
-  }
-  setNavExpanded = (expanded) => {
-    this.setState({ navExpanded: expanded });
-    }
-  
-    closeNav = () => {
-    this.setState({ navExpanded: false });
-    }
+
 
 componentDidMount(){
   window.addEventListener('scroll', ()=>{
-    const isTop = window.scrollY<137;
+    const isTop = window.scrollY>137;
+    const nav = document.getElementById('nav')
     console.log(window.scrollY)
-    if(isTop !== true){
-      this.setState({scrolled:true})
+    if(isTop ){
+      nav.classList.add('scrolled');
     }else{
-      this.setState({scrolled:false})
+      nav.classList.remove('scrolled');
     }
   });
 }
@@ -49,7 +40,7 @@ render(){
  
     <Container>
 
-     <Navbar  onToggle={this.setNavExpanded} expanded={this.state.navExpanded} fixed ="top" expand="lg" variant="dark" className="scrolled">
+     <Navbar fixed ="top" expand="lg" variant="dark" className='nav' id="nav">
      <Navbar.Brand className="navText" id="navText"> Kaustav Sharma </Navbar.Brand>
      <Navbar.Toggle className="border-0 navbar-hamburger" aria-controls="responsive-navbar-nav"/>
          <Navbar.Collapse id="responsive-navbar-nav navText">
