@@ -13,13 +13,10 @@ img {
     max-height: 100%;
 }
 
-.callUnify_cardStyle{
+.job_cardStyle{
     background-color: rgba(255,255,255,0.5);
 }
 
-.gazette_cardStyle{
-    background-color: rgba(255,255,255,0.5);
-}
 
 .experienceCard{
     font-family:'VarelaRound' !important;
@@ -30,5 +27,13 @@ img {
 .subHeadings{
     padding-top: 5vh;
     padding-bottom: 1vh;
+ 
 }
 
+.skills{
+    background-color:#05386b;
+    color: #edf5e1 !important;
+    font-size: medium;
+    margin: 6px;
+    padding: 12px;
+}
