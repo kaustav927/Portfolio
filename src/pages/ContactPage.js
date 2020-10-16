@@ -5,7 +5,7 @@ import Button from 'react-bootstrap/Button'
 
 import Content from '../components/Content'
 import axios from 'axios';
-import { Container } from 'react-bootstrap';
+
 
 import './Contact.css'
 import Icons from '../components/Icons';
@@ -73,7 +73,7 @@ class ContactPage extends React.Component{
     render() {
         return(
                 <div id="contact" className="contactStyle">
-                <Container>
+                
                 <Content >
                 <h1>Contact Me</h1>
                     <Form onSubmit={this.handleSubmit}>
@@ -106,7 +106,7 @@ class ContactPage extends React.Component{
                 </Content>
                 <Icons/>
                 
-                </Container>
+             
                 </div>
         );
     }

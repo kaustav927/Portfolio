@@ -9,7 +9,7 @@ function AboutPage(props){
 
     return(
         <div id="about" className="aboutStyle">
-        <Container>
+       
             <Content>
             <h1>About Me</h1>
             
@@ -92,7 +92,7 @@ function AboutPage(props){
 
             </Content>
             
-            </Container>
+            
         </div>
     );
 }
