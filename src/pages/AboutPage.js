@@ -18,6 +18,19 @@ function AboutPage(props){
 
                 <Row className="justify-content-around ">
 
+
+                <Card className="experienceCard"  style={{ width: '18rem' }}>
+                <Card.Body className="job_cardStyle">
+                    <Card.Title>Finastra</Card.Title>
+                    <Card.Subtitle className="mb-2 text-muted">Associate Software Engineer Co-op</Card.Subtitle>
+                    <Card.Text>
+                    Collaborate with software archetects, gaining valuable experiences pertaining to microsystem archetecture. 
+                    </Card.Text>
+                    <Card.Link href="https://www.filogix.com">Visit Company Site</Card.Link>
+                </Card.Body>
+                </Card>
+
+                
                 <Card className="experienceCard"  style={{ width: '18rem' }}>
                 <Card.Body className="job_cardStyle">
                     <Card.Title>callUnify</Card.Title>
@@ -29,16 +42,7 @@ function AboutPage(props){
                 </Card.Body>
                 </Card>
 
-                <Card className="experienceCard"  style={{ width: '18rem' }}>
-                <Card.Body className="job_cardStyle">
-                    <Card.Title>Finastra</Card.Title>
-                    <Card.Subtitle className="mb-2 text-muted">Associate Software Engineer Co-op</Card.Subtitle>
-                    <Card.Text>
-                    Collaborate with software archetects, gaining valuable experiences pertaining to microsystem archetecture. 
-                    </Card.Text>
-                    <Card.Link href="https://westerngazette.ca/">Visit Company Site</Card.Link>
-                </Card.Body>
-                </Card>
+               
 
                 <Card className="experienceCard"  style={{ width: '18rem' }}>
                 <Card.Body className="gazette_cardStyle">

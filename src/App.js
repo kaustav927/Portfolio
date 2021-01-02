@@ -47,18 +47,16 @@ constructor(props){
 
   render(){
     return (
-      
-      <div className="app">
+      <div>
+        
       <Navi/>
       <HomePage/>
-    
       <Projects/>
       <AboutPage/>
       <ContactPage/>
-      <Footer/>    
+      <Footer/>
+
       </div>
-      
-    
      );
    }
 }
