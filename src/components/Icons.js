@@ -24,7 +24,7 @@ export default function IconsSocial() {
                  <FontAwesomeIcon icon={faLinkedin} size="2x"/>
             </a>
 
-            <a href = "mailto: ksharm69@uwo.ca" className="email social">
+            <a href = "mailto: ksharm27@outlook.com" className="email social">
                 <FontAwesomeIcon icon={faEnvelope} size="2x"/>
             </a>
         </Row>

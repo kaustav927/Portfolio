@@ -8,17 +8,16 @@ import './About.css'
 function AboutPage(props){
 
     return(
-        <div id="about" className="aboutStyle">
-       
-            <Content>
+    <div id="about" className="aboutStyle">
+       <Container>
+
+      
+            <Row>
             <h1>About Me</h1>
-            
-            
-                <h3 className="subHeadings">Experience</h3>
+            </Row>
 
+                <h2 className="subHeadings">Experience</h2>
                 <Row className="justify-content-around ">
-
-
                 <Card className="experienceCard"  style={{ width: '18rem' }}>
                 <Card.Body className="job_cardStyle">
                     <Card.Title>Finastra</Card.Title>
@@ -57,8 +56,14 @@ function AboutPage(props){
                 </Row>
 
 
+            
+            
               <Container>
               <Row>
+              <h2 className="subHeadings">Skills</h2>
+              </Row>
+              
+                <Row>
                 <h3 className="subHeadings">Languages</h3>
                 </Row>
                 <Row>
@@ -76,11 +81,16 @@ function AboutPage(props){
                 </Row>
                 <Row>
                     <div className="skills"> React </div>
+                    <div className="skills"> Redux </div>
+                    <div className="skills"> Bootstrap </div>
+                    <div className="skills"> Vue </div>
                     <div className="skills"> Node </div>
                     <div className="skills"> Express </div>
                     <div className="skills"> MongoDB </div>
                     <div className="skills"> AWS </div>
-                    <div className="skills"> Spring Boot </div>
+                    <div className="skills"> Keras </div>
+                    <div className="skills"> Scikit-learn </div>
+                    <div className="skills"> Pandas </div>
                     <div className="skills"> Linux </div>
                     <div className="skills"> Git </div>
                 </Row>
@@ -94,7 +104,8 @@ function AboutPage(props){
                 
              
 
-            </Content>
+          
+            </Container>
             
             
         </div>

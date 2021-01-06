@@ -9,18 +9,16 @@ function Projects(props){
 //<div id="projects" className="aboutStyle"></div>
     return(
         <div id="projects" className="aboutStyle">
-        <Content >
+        
         <Container>
             
             <Row>
-            <h1>Projects</h1>
+             <h1>Projects</h1>
             </Row>
-           
-    
-            
-            </Container>
             <Carousel/>
-        </Content>
+        </Container>
+           
+        
         </div>
        
             

@@ -1,5 +1,5 @@
 import React from 'react';
-
+import {Row, Container} from 'react-bootstrap'
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
 
@@ -73,9 +73,15 @@ class ContactPage extends React.Component{
     render() {
         return(
                 <div id="contact" className="contactStyle">
-                
-               
+                <Container>
+                <Row> 
+                    <h1 className="subHeadings">Contact</h1>
+                </Row>
                 <Icons/>
+
+                </Container>
+                
+              
                 
              
                 </div>

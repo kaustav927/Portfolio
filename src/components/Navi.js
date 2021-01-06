@@ -50,7 +50,7 @@ render(){
              <NavItem className="nav-link navText nav-item navbar" id="navText" eventKey={3} href="#about"><Link onClick={this.closeNav} activeClass="active" to="about" spy={true} smooth={true} duration={500}>About</Link></NavItem>
              <NavItem className="nav-link navText nav-item navbar" id="navText" eventKey={4} href="#contact"><Link onClick={this.closeNav} activeClass="active" to="contact" spy={true} smooth={true} duration={500}>Contact</Link></NavItem>
             
-             <Button className="Abutton" variant="outline-primary"><a rel="noopener noreferrer" className="Abutton" href='https://drive.google.com/file/d/18kbhg2AklYRDgXcEqUhh2wiqzmlWKaGD/view?usp=sharing' target="_blank">Resume</a></Button>
+             <Button className="Abutton" variant="outline-primary"><a rel="noopener noreferrer" className="Abutton" href='https://drive.google.com/file/d/1ZUc4GLs4gz4NitcPKDiv-3m7sdCapq21/view?usp=sharing' target="_blank">Resume</a></Button>
            </Nav>
          </Navbar.Collapse>
      </Navbar>
