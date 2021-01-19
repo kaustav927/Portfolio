@@ -7,7 +7,7 @@ import '../App.css';
 import changeX from '../assets/img/ChangeX-PW.png'
 import game from '../assets/img/Game-PW.png'
 import sentiment from '../assets/img/Sent_analysis_PW.png'
-
+import LPM from '../assets/img/LPM.png'
 class Carousel extends React.Component{
 
     constructor(props){
@@ -16,12 +16,13 @@ class Carousel extends React.Component{
             items: [
                 {
                     id: 0,
-                    title: 'Archi',
-                    subTitle: 'Computer v.s. Human game',
-                    imgSrc: game,
-                    link: 'https://github.com/kaustav927/TicTacToe',
+                    title: 'Loan Prediction Model',
+                    subTitle: 'FinTech POC',
+                    imgSrc: LPM,
+                    link: 'https://www.youtube.com/watch?v=5LCULmsK5zY',
                     selected: false
                 },
+                
                 {
                     id: 1,
                     title: 'ChangeX',
@@ -38,15 +39,17 @@ class Carousel extends React.Component{
                     link: 'https://github.com/kaustav927/Twitter-Sentiment-Analyzer',
                     selected: false
                 },
-                /*
                 {
                     id: 3,
-                    title: 'Sentiment Anlalyzer for Twitter',
-                    subTitle: 'A social network for developers',
-                    imgSrc: sentiment,
-                    link: 'https://github.com/kaustav927/Twitter-Sentiment-Analyzer',
+                    title: 'Archi',
+                    subTitle: 'Computer v.s. Human game',
+                    imgSrc: game,
+                    link: 'https://github.com/kaustav927/TicTacToe',
                     selected: false
                 },
+                
+                
+                /*
                 {
                     id: 4,
                     title: 'Sentiment Anlalyzer for Twitter',
