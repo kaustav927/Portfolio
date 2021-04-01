@@ -8,6 +8,7 @@ import changeX from '../assets/img/ChangeX-PW.png'
 import game from '../assets/img/Game-PW.png'
 import sentiment from '../assets/img/Sent_analysis_PW.png'
 import LPM from '../assets/img/LPM.png'
+import QnASpace from '../assets/img/qnaSpace.png'
 class Carousel extends React.Component{
 
     constructor(props){
@@ -16,57 +17,50 @@ class Carousel extends React.Component{
             items: [
                 {
                     id: 0,
+                    title: 'QnA Space',
+                    subTitle: 'Online Education ',
+                    description:"",
+                    imgSrc: QnASpace,
+                    link: 'https://devpost.com/software/qna-space',
+                    selected: false
+                },
+                {
+                    id: 1,
                     title: 'Loan Prediction Model',
                     subTitle: 'FinTech POC',
+                    description:"Pandas, Scikit-learn, Flask, Vue",
                     imgSrc: LPM,
                     link: 'https://www.youtube.com/watch?v=5LCULmsK5zY',
                     selected: false
                 },
                 
                 {
-                    id: 1,
+                    id: 2,
                     title: 'ChangeX',
                     subTitle: 'Charity Concept',
+                    description:"",
                     imgSrc: changeX,
                     link: 'https://changex.ca',
                     selected: false
                 },
                 {
-                    id: 2,
+                    id: 3,
                     title: 'Sentiment Anlalyzer',
-                    subTitle: 'NLP with python',
+                    subTitle: 'NLP with Python',
+                    description:"",
                     imgSrc: sentiment,
                     link: 'https://github.com/kaustav927/Twitter-Sentiment-Analyzer',
                     selected: false
                 },
                 {
-                    id: 3,
+                    id: 4,
                     title: 'Archi',
                     subTitle: 'Computer v.s. Human game',
+                    description:"",
                     imgSrc: game,
                     link: 'https://github.com/kaustav927/TicTacToe',
                     selected: false
                 },
-                
-                
-                /*
-                {
-                    id: 4,
-                    title: 'Sentiment Anlalyzer for Twitter',
-                    subTitle: 'A social network for developers',
-                    imgSrc: sentiment,
-                    link: 'https://github.com/kaustav927/Twitter-Sentiment-Analyzer',
-                    selected: false
-                },
-                {
-                    id: 5,
-                    title: 'Sentiment Anlalyzer for Twitter',
-                    subTitle: 'A social network for developers',
-                    imgSrc: sentiment,
-                    link: 'https://github.com/kaustav927/Twitter-Sentiment-Analyzer',
-                    selected: false
-                },
-                */
             ]
         }
     }

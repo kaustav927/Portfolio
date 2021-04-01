@@ -9,8 +9,8 @@ function CardInfo(props){
         <animated.div className="ks-card-info" style={style}>
             <p className="ks-card-title">{props.title}</p>
             <p className="ks-card-sub-title">{props.subTitle}</p>
+            <p className="ks-card-description">{props.descripton}</p>
             <a href={props.link} target="_blank" rel="noopener noreferrer">View</a>
-            
         </animated.div>
     )
 }

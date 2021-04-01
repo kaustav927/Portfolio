@@ -24,17 +24,20 @@ code {
   border-radius: 10px;
   width: 300px;
   height: 480px;
-  box-shadow:0px 0px 3px 1px #ccc;
+  box-shadow:1px 1px 1px 1px #ccc;
 }
 
+.ks-card{
+  padding: 5%;
+}
 .ks-card-title{
   font-size: 24px;
-  margin: 0px;
+  margin: 0px; 
   font-family: 'VarelaRound' !important;
 }
 
 .ks-card-info{
-  margin-top:10px;
+  padding:10px;
   min-height:100px;
   font-family: 'VarelaRound' !important;
 }
@@ -45,6 +48,11 @@ code {
   font-family: 'VarelaRound' !important;
 }
 
+.ks-card-description{
+  font-size:12px;
+  margin:0px;
+  font-family: 'VarelaRound' !important;
+}
 .success-msg{
   color: #5577aa;
   padding: 10px 15px;

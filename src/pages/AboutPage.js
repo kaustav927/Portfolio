@@ -2,7 +2,7 @@ import React from 'react'
 import Content from '../components/Content'
 
 
-import { Container, Card, Row} from 'react-bootstrap'
+import { Container, Card, Row,Col} from 'react-bootstrap'
 import './About.css'
 
 function AboutPage(props){
@@ -11,10 +11,12 @@ function AboutPage(props){
     <div id="about" className="aboutStyle">
        <Container>
 
-      
-            <Row>
+       <Col>
+       <Row>
             <h1>About Me</h1>
             </Row>
+       </Col>
+            
 
                 <h2 className="subHeadings">Experience</h2>
                 <Row className="justify-content-around ">
@@ -101,9 +103,7 @@ function AboutPage(props){
                 
 
                
-                
-             
-
+            
           
             </Container>
             
