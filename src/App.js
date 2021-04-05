@@ -23,7 +23,6 @@ constructor(props){
 
   super(props);
   this.state = {
-
       title: "Kaustav Sharma",
       //scrolled :false,
       headerLinks:[ 

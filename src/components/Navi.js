@@ -47,8 +47,8 @@ render(){
              <NavItem className="nav-link navText nav-item navbar" id="navText" eventKey={2} href="#projects"><Link onClick={this.closeNav} activeClass="active" to="projects" spy={true} smooth={true} duration={500}>Projects</Link></NavItem>
              <NavItem className="nav-link navText nav-item navbar" id="navText" eventKey={3} href="#about"><Link onClick={this.closeNav} activeClass="active" to="about" spy={true} smooth={true} duration={500}>About</Link></NavItem>
              <NavItem className="nav-link navText nav-item navbar" id="navText" eventKey={4} href="#contact"><Link onClick={this.closeNav} activeClass="active" to="contact" spy={true} smooth={true} duration={500}>Contact</Link></NavItem>
-            
-             <Button className="Abutton" variant="outline-primary"><a rel="noopener noreferrer" className="Abutton" href='https://drive.google.com/file/d/1aTELPnJHBzmwLB4n7a8WzvHCQbMql_gU/view?usp=sharing' target="_blank">Resume</a></Button>
+
+             <Button className="Abutton" variant="outline-primary"><a rel="noopener noreferrer" className="Abutton" href='https://drive.google.com/file/d/18XyT6wPX2IWdWv0VCqOtwW7ZXYSuAm_g/view?usp=sharing' target="_blank">Resume</a></Button>
            </Nav>
          </Navbar.Collapse>
      </Navbar>
