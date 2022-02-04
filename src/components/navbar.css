@@ -57,7 +57,7 @@
   
   .nav{
     width:100%;
-    
+    overflow-x: none;
     transition:1s;
   }
   
@@ -85,9 +85,9 @@
     width:100%;
     overflow-x: hidden;
   }
+
   .NameButton{
     background-color:transparent !important;
-    
   }
   
   .navbar-hamburger{
@@ -111,7 +111,6 @@
   
   .aTag{
     text-decoration: none !important;
-  
   }
   
   .Abutton {
@@ -130,7 +129,6 @@
     background-color:#edf5e1!important; /* Green */
     color: #2E4C80  !important;
     text-decoration: none !important;
-  
   }
   
   
